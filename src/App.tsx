@@ -13,6 +13,7 @@ import {
   createMicrophoneAndCameraTracks,
 } from "agora-rtc-react";
 import VideoCall from "./VideoCall";
+import ChannelForm from "./ChannelForm";
 
 const config: ClientConfig = {
   mode: "rtc",
