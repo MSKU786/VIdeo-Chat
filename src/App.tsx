@@ -19,14 +19,16 @@ const config: ClientConfig = {
   mode: "rtc",
   codec: "vp8",
 };
-export const token: string | null = null;
-export const appId: string = "bfcc0303d2cc4ffba43f910861bc67a5"; //ENTER APP ID HERE
+export const token: string | null =
+  "006bfcc0303d2cc4ffba43f910861bc67a5IACrenToxjzQ9BKsi8sMqBky8g9YwLRvDX1uG7/PZWzAeoamEDYAAAAAEADJZeRXevxKYgEAAQB5/Epi";
+export const appId: string = "bfcc0303d2cc4ffba43f910861bc67a5";
+//ENTER APP ID HERE
 function App() {
   const [inCall, setInCall] = useState(false);
   const [channelName, setChannelName] = useState("");
   return (
     <div>
-      <h1 className="heading">Agora RTC NG SDK React Wrapper</h1>
+      <h1 className="heading">Learning Agora React Wrapper</h1>
       {inCall ? (
         <VideoCall setInCall={setInCall} channelName={channelName} />
       ) : (

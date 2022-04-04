@@ -8,11 +8,7 @@ export default function ChannelForm(props: {
 
   return (
     <form className="join">
-      {appId === "" && (
-        <p style={{ color: "red" }}>
-          Please enter your Agora App ID in App.tsx and refresh the page
-        </p>
-      )}
+
       <input
         type="text"
         placeholder="Enter Channel Name"
